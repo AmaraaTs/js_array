@@ -80,7 +80,7 @@ for (let i = 0; i < arrayOfNumbers.length; i++) {
 console.log("bod3.6: ", sum3_6);
 
 //
-let max = 0;
+let max = arrayOfNumbers[0];
 for (let i = 0; i < arrayOfNumbers.length; i++) {
   if (max < arrayOfNumbers[i]) {
     max = arrayOfNumbers[i];
@@ -89,7 +89,7 @@ for (let i = 0; i < arrayOfNumbers.length; i++) {
 console.log("bod3.7: ", max);
 
 //
-let min = 10000000000;
+let min = arrayOfNumbers[0];
 for (let i = 0; i < arrayOfNumbers.length; i++) {
   if (min > arrayOfNumbers[i]) {
     min = arrayOfNumbers[i];
